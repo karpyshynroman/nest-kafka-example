@@ -1,6 +1,6 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import type { Document } from 'mongoose';
-import { IPost } from '../interfaces/post.interface';
+import { IPost } from '../../../../api-gateway/src/posts/interfaces/post.interface';
 
 export type PostDocument = Post & Document;
 
